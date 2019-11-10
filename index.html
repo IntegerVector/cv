@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrew Ryban</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./main.css">
+        <script src="./page-card.js"></script>
+        <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+        </style>
+    </head>
+    <body class="w3-light-grey">
+        <div class="w3-content w3-margin-top" style="max-width:1400px;">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <page-card
+                        id="main"
+                        data-src="/resources/aboutMe.json">
+                    </page-card>
+                </div>
+                <div class="w3-twothird">
+                    <page-card
+                        id="experience"
+                        data-src="/resources/experience.json">
+                    </page-card>
+                    <page-card
+                        id="education"
+                        data-src="/resources/education.json">
+                    </page-card>
+                    <page-card
+                        id="certificates"
+                        data-src="/resources/certificates.json"></page-card>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+        <p>Find me on social media:
+            <a href="https://www.facebook.com/andrew.ryban" target="_blank">
+                <span class="fa fa-facebook-official w3-large w3-hover-opacity"></span></a>
+            <a href="https://www.linkedin.com/in/andrew-ryban" target="_blank">
+                <span class="fa fa-linkedin w3-large w3-hover-opacity"></span></a>
+            <a href="https://github.com/IntegerVector" target="_blank">
+                <span class="fa fa-github w3-large w3-hover-opacity"></span></a>
+            <span class="w3-margin">
+                Source: <a href="https://github.com/IntegerVector/cv.git" target="_blank"><span class="fa fa-github w3-large w3-hover-opacity"></span></a>
+            </span>
+        </p>
+        <p>Powered by 
+            <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>.
+            Based on <a href="https://www.w3schools.com/w3css/tryw3css_templates_cv.htm" target="_blank">This</a>
+            Template.
+        </p>
+    </footer>
+</html>

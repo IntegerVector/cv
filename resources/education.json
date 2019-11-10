@@ -1,0 +1,24 @@
+{
+  "header": null,
+  "statuses": [],
+  "sections": [
+    {
+      "sectionIcon": "fa-archive",
+      "sectionTitle": "Education",
+      "content": [
+        {
+          "contentLabel": "Self improvement",
+          "contentDataValidity": "Forever",
+          "progressBar": null,
+          "contentText": ""
+        },
+        {
+          "contentLabel": "NURE, Ukraine (nure.ua)",
+          "contentDataValidity": "2016 - Till Now",
+          "progressBar": null,
+          "contentText": "Getting Bachelor Degree. Faculty: Computer Engineering and Management. Specialty: computer engineering"
+        }
+      ]
+    }
+  ]
+}

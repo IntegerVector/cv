@@ -1,0 +1,17 @@
+.full-height {
+    height: 100%;
+}
+
+#main .main {
+    -webkit-box-shadow: -1px 0px 20px -4px rgba(74,74,74,0.75);
+    -moz-box-shadow: -1px 0px 20px -4px rgba(74,74,74,0.75);
+    box-shadow: -1px 0px 20px -4px rgba(74,74,74,0.75);
+}
+
+#experience .section-content-text {
+    color: rgb(19, 19, 19);
+}
+
+#education .section-content-text {
+    color: rgb(19, 19, 19);
+}

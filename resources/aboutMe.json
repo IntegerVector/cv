@@ -1,0 +1,123 @@
+{
+  "header": {
+    "headerColor": "green",
+    "headerImg": "./resources/me.jpg",
+    "headerTitle": "Andrew Ruban"
+  },
+  "statuses": [
+    {
+      "statusIcon": "fa-briefcase",
+      "statusLabel": "Web UI Developer"
+    },
+    {
+      "statusIcon": "fa-home",
+      "statusLabel": "Kharkiv, Ukraine"
+    },
+    {
+      "statusIcon": "fa-envelope",
+      "statusLabel": "andrew.ryban@gmail.com"
+    },
+    {
+      "statusIcon": "fa-phone",
+      "statusLabel": "+380999629834"
+    }
+  ],
+  "sections": [
+    {
+      "sectionIcon": "fa-asterisk",
+      "sectionTitle": "Skills",
+      "content": [
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": null,
+          "contentText": "- HTML/CSS/JS/TypeScript"
+        },
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": null,
+          "contentText": "- AngularJS/Angular/NodeJS"
+        },
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": null,
+          "contentText": "- SQL/PLSQL"
+        }
+      ]
+    },
+    {
+      "sectionIcon": "fa-globe",
+      "sectionTitle": "Languages",
+      "content": [
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": {
+            "minLevel": 0,
+            "maxLevel": 6,
+            "levels": [
+              "Elementary",
+              "Pre Intermidiate",
+              "Intermidiate",
+              "Upper Intermidiate",
+              "Expert",
+              "Native Language"
+            ],
+            "level": 4,
+            "displayLevel": true,
+            "displaySeparators": true,
+            "displayCurrentLevelPointer": true,
+            "color": "red"
+          },
+          "contentText": "English"
+        },
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": {
+            "minLevel": 0,
+            "maxLevel": 6,
+            "levels": [
+              "Elementary",
+              "Pre Intermidiate",
+              "Intermidiate",
+              "Upper Intermidiate",
+              "Expert",
+              "Native Language"
+            ],
+            "level": 6,
+            "displayLevel": true,
+            "displaySeparators": true,
+            "displayCurrentLevelPointer": true,
+            "color": "red"
+          },
+          "contentText": "Ukrainian"
+        },
+        {
+          "contentLabel": "",
+          "contentDataValidity": null,
+          "progressBar": {
+            "minLevel": 0,
+            "maxLevel": 6,
+            "levels": [
+              "Elementary",
+              "Pre Intermidiate",
+              "Intermidiate",
+              "Upper Intermidiate",
+              "Expert",
+              "Second Native Language"
+            ],
+            "level": 6,
+            "displayLevel": true,
+            "displaySeparators": true,
+            "displayCurrentLevelPointer": true,
+            "color": "red"
+          },
+          "contentText": "Russian"
+        }
+      ]
+    }
+  ]
+}

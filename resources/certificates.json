@@ -1,0 +1,19 @@
+{
+    "header": null,
+    "statuses": [],
+    "sections": [
+      {
+        "sectionIcon": "fa-certificate",
+        "sectionTitle": "Certificates",
+        "content": [
+          {
+            "contentLabel": "Working on getting them :)",
+            "contentDataValidity": null,
+            "progressBar": null,
+            "contentText": null
+          }
+        ]
+      }
+    ]
+  }
+  
