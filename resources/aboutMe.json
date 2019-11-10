@@ -1,7 +1,7 @@
 {
   "header": {
     "headerColor": "green",
-    "headerImg": "./resources/me.jpg",
+    "headerImg": "https://integervector.github.io/cv/resources/me.jpg",
     "headerTitle": "Andrew Ruban"
   },
   "statuses": [
