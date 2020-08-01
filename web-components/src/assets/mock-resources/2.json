@@ -3,11 +3,11 @@
     "statuses": [],
     "sections": [
       {
-        "sectionIcon": "fa-certificate",
-        "sectionTitle": "Certificates",
+        "sectionIcon": "./assets/mock-resources/icons/star.svg",
+        "sectionTitle": "New short section",
         "content": [
           {
-            "contentLabel": "Working on getting them :)",
+            "contentLabel": "Short content item",
             "contentDataValidity": null,
             "progressBar": null,
             "contentText": null

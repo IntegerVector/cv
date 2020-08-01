@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { createCustomElement } from '@angular/elements';
 
 import { PageCardComponent } from './page-card/page-card.component';
+import { SharedComponentsModule } from './shared/shared-components.module';
+import { IconComponent } from './shared/icon-component/icon.component';
 
 @NgModule({
   declarations: [
@@ -11,15 +13,18 @@ import { PageCardComponent } from './page-card/page-card.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedComponentsModule
   ],
   providers: [],
-  entryComponents: [PageCardComponent]
+  entryComponents: [PageCardComponent, IconComponent]
 })
 export class AppModule {
   constructor(injector: Injector) {
     const pageCard = createCustomElement(PageCardComponent, { injector });
+    const icon = createCustomElement(IconComponent, { injector });
     customElements.define('page-card', pageCard);
+    customElements.define('icon-component', icon);
   }
 
   ngDoBootstrap() {}

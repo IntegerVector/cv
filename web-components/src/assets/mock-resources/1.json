@@ -1,55 +1,49 @@
 {
   "header": {
     "headerColor": "green",
-    "headerImg": "https://integervector.github.io/cv/resources/me.jpg",
-    "headerTitle": "Andrew Ruban"
+    "headerImg": "./assets/mock-resources/header-image.jpg",
+    "headerTitle": "Some Title"
   },
   "statuses": [
     {
-      "statusIcon": "fa-briefcase",
-      "statusLabel": "Web UI Developer"
+      "statusIcon": "./assets/mock-resources/icons/job.svg",
+      "statusLabel": "first option"
     },
     {
-      "statusIcon": "fa-home",
-      "statusLabel": "Kharkiv, Ukraine"
+      "statusIcon": "./assets/mock-resources/icons/home.svg",
+      "statusLabel": "second option"
     },
     {
-      "statusIcon": "fa-envelope",
-      "statusLabel": "andrew.ryban@gmail.com"
+      "statusIcon": "./assets/mock-resources/icons/mail.svg",
+      "statusLabel": "third option"
     },
     {
-      "statusIcon": "fa-phone",
-      "statusLabel": "+380999629834"
+      "statusIcon": "./assets/mock-resources/icons/phone.svg",
+      "statusLabel": "final one"
     }
   ],
   "sections": [
     {
-      "sectionIcon": "fa-asterisk",
-      "sectionTitle": "Skills",
+      "sectionIcon": "./assets/mock-resources/icons/star.svg",
+      "sectionTitle": "Section 1",
       "content": [
         {
           "contentLabel": "",
           "contentDataValidity": null,
           "progressBar": null,
-          "contentText": "- HTML/CSS/JS/TypeScript"
+          "contentText": "lorem"
         },
         {
           "contentLabel": "",
           "contentDataValidity": null,
           "progressBar": null,
-          "contentText": "- AngularJS/Angular/NodeJS"
-        },
-        {
-          "contentLabel": "",
-          "contentDataValidity": null,
-          "progressBar": null,
-          "contentText": "- SQL/PLSQL"
+          "contentText": "impsut"
         }
       ]
     },
     {
-      "sectionIcon": "fa-globe",
-      "sectionTitle": "Languages",
+      "sectionIcon": "./assets/mock-resources/icons/earth.svg",
+      "sectionTitle": "Section 2",
       "content": [
         {
           "contentLabel": "",
@@ -94,28 +88,6 @@
             "color": "red"
           },
           "contentText": "Ukrainian"
-        },
-        {
-          "contentLabel": "",
-          "contentDataValidity": null,
-          "progressBar": {
-            "minLevel": 0,
-            "maxLevel": 6,
-            "levels": [
-              "Elementary",
-              "Pre Intermidiate",
-              "Intermidiate",
-              "Upper Intermidiate",
-              "Expert",
-              "Second Native Language"
-            ],
-            "level": 6,
-            "displayLevel": true,
-            "displaySeparators": true,
-            "displayCurrentLevelPointer": true,
-            "color": "red"
-          },
-          "contentText": "Russian"
         }
       ]
     }

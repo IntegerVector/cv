@@ -1,0 +1,24 @@
+{
+  "header": null,
+  "statuses": [],
+  "sections": [
+    {
+      "sectionIcon": "./assets/mock-resources/icons/earth.svg",
+      "sectionTitle": "Section with some content",
+      "content": [
+        {
+          "contentLabel": "./assets/mock-resources/icons/mail.svg",
+          "contentDataValidity": "2020 - Till now",
+          "progressBar": null,
+          "contentText": ""
+        },
+        {
+          "contentLabel": "./assets/mock-resources/icons/home.svg",
+          "contentDataValidity": "2016 - Till Now",
+          "progressBar": null,
+          "contentText": "Some content text!"
+        }
+      ]
+    }
+  ]
+}

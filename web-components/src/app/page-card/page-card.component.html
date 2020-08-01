@@ -1,22 +1,21 @@
-<div *ngIf="vm" class="w3-card w3-white w3-text-grey">
+<div *ngIf="vm">
     <div class="main">
         <!-- HEADER -->
-        <div *ngIf="vm.header" class="w3-display-container header">
+        <div *ngIf="vm.header">
             <img *ngIf="vm.header.headerImg"
                 src="{{ vm.header.headerImg }}"
                 style="width:100%"
                 class="header-img"
                 alt="Avatar">
-            <div *ngIf="vm.header.headerTitle"
-                class="w3-display-bottomleft w3-container w3-text-black header-title header-text-bg">
+            <div *ngIf="vm.header.headerTitle">
                 <h2>{{ vm.header.headerTitle }}</h2>
             </div>
         </div>
     
         <!-- MAIN -->
-        <div class="w3-container">
+        <div>
             <!-- STATUSES -->
-            <div *ngIf="vm.statuses.length !== 0" class="statuses">
+            <div *ngIf="vm.statuses.length !== 0">
                 <p *ngFor="let status of vm.statuses">
                     <i [ngClass]="['fa', status.statusIcon, 'fa-fw', 'w3-margin-right', 'w3-large', 'w3-text-teal']"></i>
                     {{ status.statusLabel }}
@@ -27,31 +26,31 @@
             <!-- SECTIONS -->
             <div *ngIf="vm.sections.length !== 0">
                 <div *ngFor="let section of vm.sections; index as i" class="sections">
-                    <p *ngIf="vm.statuses.length !== 0" class="w3-large w3-text-theme section-title">
+                    <p *ngIf="vm.statuses.length !== 0">
                         <i [ngClass]="['fa', section.sectionIcon, 'fa-fw', 'w3-margin-right', 'w3-large', 'w3-text-teal']"></i>
                         <b>
                             {{ section.sectionTitle }}
                         </b>
                     </p>
-                    <h2 *ngIf="vm.statuses.length === 0" class="w3-text-grey w3-padding-16 section-title">
+                    <h2 *ngIf="vm.statuses.length === 0">
                         <i [ngClass]="['fa', section.sectionIcon, 'fa-fw', 'w3-margin-right', 'w3-xxlarge', 'w3-text-teal']"></i>
                         {{ section.sectionTitle }}
                     </h2>
                 
                     <!-- SECTION CONTENT -->
-                    <div *ngFor="let item of section.content; index as i" class="w3-container section-content">
-                        <h5 *ngIf="item.contentLabel" class="section-content-label">
+                    <div *ngFor="let item of section.content; index as i">
+                        <h5 *ngIf="item.contentLabel">
                             <b>{{ item.contentLabel }}</b>
                         </h5>
-                        <h6 *ngIf="item.contentDataValidity" class="w3-text-teal">
-                            <i class="fa fa-calendar fa-fw w3-margin-right w3-large"></i>
+                        <h6 *ngIf="item.contentDataValidity">
+                            <i></i>
                             {{ item.contentDataValidity }}
                         </h6>
-                        <p *ngIf="item.contentText" class="section-content-text">
+                        <p *ngIf="item.contentText">
                             {{ item.contentText }}
                         </p>
-                        <div *ngIf="item.progressBar" class="w3-light-grey w3-round-xlarge w3-small">
-                            <div class="w3-container w3-center w3-round-xlarge w3-teal"
+                        <div *ngIf="item.progressBar">
+                            <div
                             [ngStyle]="{ 'width': getLevel(item.progressBar.minLevel, item.progressBar.maxLevel, item.progressBar.level) }">
                                 <b> {{ getProgressBarText(item.progressBar) }} </b>
                                 <span *ngIf="!item.progressBar.displayLevel"> &nbsp; </span>
